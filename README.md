@@ -79,25 +79,29 @@ A quick look at the top-level files and directories included with this template.
 
 4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
 
-5.  **`.eslintrc.cjs`**: This file is the configuration file for [ESLint](https://eslint.org/), a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+5.  **`components`**: This directory will contain all of the code related to what components you want to build.
 
-6.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+6.  **`stories`**: This directory will contain all of the code related to what stories you want to test with your components.
 
-7.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
+7.  **`.eslintrc.cjs`**: This file is the configuration file for [ESLint](https://eslint.org/), a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
-8.  **`LICENSE`**: The template is licensed under the MIT licence.
+8.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-9.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+9.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
 
-10. **`tsconfig.json`**: This is the configuration file for [TypeScript](https://www.typescriptlang.org/) specifies the root files and the compiler options required to compile the project.
+10. **`LICENSE`**: The template is licensed under the MIT licence.
+
+11. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+
+12. **`tsconfig.json`**: This is the configuration file for [TypeScript](https://www.typescriptlang.org/) specifies the root files and the compiler options required to compile the project.
     
-11. **`tsconfig.vite.json`**: This is the configuration file for [Vite](https://vitejs.dev/). Vite itself including its config is running on your computer inside Node, which is totally different environment (compared with browser) with different API's and constraints.
+13. **`tsconfig.vite.json`**: This is the configuration file for [Vite](https://vitejs.dev/). Vite itself including its config is running on your computer inside Node, which is totally different environment (compared with browser) with different API's and constraints.
 
-12. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+14. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
-13. **`vite.config.ts`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+15. **`vite.config.ts`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
-14. **`README.md`**: A text file containing useful reference information about the project.
+16. **`README.md`**: A text file containing useful reference information about the project.
 
 
 ## Contribute
